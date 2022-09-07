@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -126,4 +126,129 @@
   .logo img {
     filter: invert(1);
   }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap");
+
+.fullbody {
+  background-color: #181824;
+  min-height: 100vh;
+  font-family: "Monda", sans-serif;
+  padding: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  /* padding-top: 60px; */
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.main div {
+  color: #fff;
+}
+
+.main div button {
+  background-color: rgba(173, 2, 254, 1);
+  color: #fff;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-family: "Monda", sans-serif;
+  cursor: pointer;
+}
+
+.form {
+  max-width: 400px;
+  margin-top: 50px;
+  margin: auto;
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.form input {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 340px;
+  border-radius: 16px 0 0 16px;
+  background-color: #25273c;
+  font-family: "Monda", sans-serif;
+  font-size: 1rem;
+  padding: 0 20px;
+  color: rgba(255, 255, 255, 0.7) !important;
+  color: red;
+  font-weight: 400;
+}
+
+.form button {
+  background-color: rgba(90, 255, 49, 0.6);
+  outline: none;
+  border: none;
+  border-radius: 0 16px 16px 0;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-color: #25273c;
+}
+.container ul {
+  padding: 0;
+}
+
+.container ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 7px 15px;
+  gap: 20px;
+}
+
+.container ul li span {
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.notask {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notask span {
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.markdone {
+  color: rgba(15, 144, 161, 0.57);
+  text-decoration: line-through;
+}
+.delete {
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(173, 2, 254, 1);
 }
